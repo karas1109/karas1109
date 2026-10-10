@@ -71,6 +71,10 @@ Ubuntu Client와 Raspberry Pi Server 간 TCP 통신으로 LED, Buzzer, 조도센
 - `ToolBox`: 초기화·종료 이벤트
 - `MainWindow`: 팀원과 공동으로 Signal/Slot 및 UI 상태 동기화 통합
 
+**관련 팀 저장소:** [midCalender — Qt 캘린더 실습 코드](https://github.com/acoddi/midCalender)
+
+> 이 저장소에서 `LeftList` 및 `SearchEngine` 구현을 확인했습니다. 포트폴리오에 수록된 VeraCalendar 최종 완성본과 동일한 버전인지는 아직 확인되지 않았습니다.
+
 ---
 
 **Areas of Interest:** Embedded Linux · Linux Device Drivers · C/C++ · Qt · Hardware/Software Integration
