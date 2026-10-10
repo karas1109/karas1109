@@ -48,18 +48,7 @@ Raspberry Pi에서 동작하는 원격 RC Tank 팀 프로젝트입니다.
 - `hrtimer` 기반 Software PWM 및 `spinlock`을 활용한 공유 상태 보호
 - GPIO Mapping 및 커널 빌드 환경 문제 해결, 실제 구동 테스트
 
-### 3. Remote Device Control — Linux 원격 장치 제어
-
-**Linux User Space · Networking · Raspberry Pi**
-
-Ubuntu Client와 Raspberry Pi Server 간 TCP 통신으로 LED, Buzzer, 조도센서, 7-Segment를 제어하는 시스템입니다.
-
-**직접 구현한 기능**
-- POSIX Socket 기반 Client/Server 및 `pthread` 기반 요청 처리
-- `dlopen` / `dlsym`으로 Shared Library와 Device Layer 연동
-- Mutex 기반 동시성 제어, Daemon 실행, ARM64 Cross Compilation
-
-### 4. VeraCalendar — Qt Desktop Application
+### 3. VeraCalendar — Qt Desktop Application
 
 **C++17 · Qt 6 Widgets · 2인 팀 프로젝트**
 
@@ -74,6 +63,19 @@ Ubuntu Client와 Raspberry Pi Server 간 TCP 통신으로 LED, Buzzer, 조도센
 **관련 팀 저장소:** [midCalender — Qt 캘린더 실습 코드](https://github.com/acoddi/midCalender)
 
 > 이 저장소에서 `LeftList` 및 `SearchEngine` 구현을 확인했습니다. 포트폴리오에 수록된 VeraCalendar 최종 완성본과 동일한 버전인지는 아직 확인되지 않았습니다.
+
+## Training & Practice
+
+### Remote Device Control — VEDA Linux 시스템 프로그래밍 실습
+
+**교육 과정에서 수행한 Linux 실습 과제**
+
+Ubuntu Client와 Raspberry Pi Server 사이의 TCP 통신을 통해 LED, Buzzer, 조도센서, 7-Segment 장치 제어를 연습했습니다.
+
+**실습 내용**
+- POSIX Socket 기반 Client/Server 통신과 `pthread` 활용
+- `dlopen` / `dlsym`으로 Shared Library와 Device Layer 연동
+- Mutex를 활용한 동기화, Daemon 실행 및 ARM64 Cross Compilation
 
 ---
 
