@@ -48,6 +48,11 @@ Raspberry Pi에서 동작하는 원격 RC Tank 팀 프로젝트입니다.
 - `hrtimer` 기반 Software PWM 및 `spinlock`을 활용한 공유 상태 보호
 - GPIO Mapping 및 커널 빌드 환경 문제 해결, 실제 구동 테스트
 
+**소스 코드:** [Tankboy DeviceDriver (kernel module & test app)](https://github.com/veda-car-project/DeviceDriver)
+
+> 공개 팀 저장소 중 제가 직접 작성한 Linux 모터 드라이버 및 테스트 앱 코드입니다. 팀 전체 RC Tank 응용 프로그램과는 구현 범위가 다릅니다.
+
+
 ### 3. VeraCalendar — Qt Desktop Application
 
 **C++17 · Qt 6 Widgets · 2인 팀 프로젝트**
